@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 2%;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+input[type=button] {
+    background-color: #7fcd91;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 4px;
+    cursor: pointer;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 5%;
+    transition: all 400ms;
+}
+
+input[type=button]:hover {
+    background-color: rgba(0, 68, 255, 0.514);
+}
+
+h1 {
+    border: none;
+    text-decoration: none;
+    width: 99%;
+    height: 60px;
+    font-size: 1.9em;
+    border-radius: 5px;
+    background-color: #444E5C;
+    color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.335);
+    text-align: right;
+}
+
+form input[type=button]:nth-child(16) {
+    background-color: #216353;
+}
+
+form input[type=button]:nth-child(17) {
+    background-color: #d63447;
+}
